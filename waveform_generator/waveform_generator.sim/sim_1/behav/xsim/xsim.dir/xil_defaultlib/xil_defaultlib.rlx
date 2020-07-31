@@ -1,0 +1,13 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/¹ùºÆÔÂ/Desktop/waveform_generator/waveform_generator.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/¹ùºÆÔÂ/Desktop/waveform_generator/waveform_generator.srcs/sim_1/new/testbench.v,1596166818,verilog,,,,testbench,,,../../../../waveform_generator.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/¹ùºÆÔÂ/Desktop/waveform_generator/waveform_generator.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v,1596164089,verilog,,C:/Users/¹ùºÆÔÂ/Desktop/waveform_generator/waveform_generator.srcs/sources_1/new/dac_controller.v,,clk_wiz_0,,,../../../../waveform_generator.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/¹ùºÆÔÂ/Desktop/waveform_generator/waveform_generator.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,1596164088,verilog,,C:/Users/¹ùºÆÔÂ/Desktop/waveform_generator/waveform_generator.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v,,clk_wiz_0_clk_wiz,,,../../../../waveform_generator.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/¹ùºÆÔÂ/Desktop/waveform_generator/waveform_generator.srcs/sources_1/ip/dds_compiler_0/sim/dds_compiler_0.vhd,1596162950,vhdl,,,,dds_compiler_0,,,,,,,,
+C:/Users/¹ùºÆÔÂ/Desktop/waveform_generator/waveform_generator.srcs/sources_1/new/dac_controller.v,1596165818,verilog,,C:/Users/¹ùºÆÔÂ/Desktop/waveform_generator/waveform_generator.srcs/sources_1/new/sin_wave.v,,dac_controller,,,../../../../waveform_generator.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/¹ùºÆÔÂ/Desktop/waveform_generator/waveform_generator.srcs/sources_1/new/sin_wave.v,1596164966,verilog,,C:/Users/¹ùºÆÔÂ/Desktop/waveform_generator/waveform_generator.srcs/sources_1/new/wave_generator.v,,sin_wave,,,../../../../waveform_generator.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/¹ùºÆÔÂ/Desktop/waveform_generator/waveform_generator.srcs/sources_1/new/wave_generator.v,1596164966,verilog,,C:/Users/¹ùºÆÔÂ/Desktop/waveform_generator/waveform_generator.srcs/sources_1/new/wave_make.v,,wave_generator,,,../../../../waveform_generator.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/¹ùºÆÔÂ/Desktop/waveform_generator/waveform_generator.srcs/sources_1/new/wave_make.v,1596166818,verilog,,C:/Users/¹ùºÆÔÂ/Desktop/waveform_generator/waveform_generator.srcs/sim_1/new/testbench.v,,wave_make,,,../../../../waveform_generator.srcs/sources_1/ip/clk_wiz_0,,,,,

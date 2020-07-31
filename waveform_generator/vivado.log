@@ -1,0 +1,148 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Jul 31 16:26:46 2020
+# Process ID: 2336
+# Current directory: C:/Users/¹ùºÆÔÂ/Desktop/waveform_generator
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17516 C:\Users\¹ùºÆÔÂ\Desktop\waveform_generator\waveform_generator.xpr
+# Log file: C:/Users/¹ùºÆÔÂ/Desktop/waveform_generator/vivado.log
+# Journal file: C:/Users/¹ùºÆÔÂ/Desktop/waveform_generator\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/¹ùºÆÔÂ/Desktop/waveform_generator/waveform_generator.xpr
+INFO: [Project 1-313] Project file moved from 'D:/vivado/waveform_generator' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:07 . Memory (MB): peak = 785.762 ; gain = 180.824
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/¹ùºÆÔÂ/Desktop/waveform_generator/waveform_generator.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'C:/Users/¹ùºÆÔÂ/Desktop/waveform_generator/waveform_generator.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/¹ùºÆÔÂ/Desktop/waveform_generator/waveform_generator.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/¹ùºÆÔÂ/Desktop/waveform_generator/waveform_generator.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/¹ùºÆÔÂ/Desktop/waveform_generator/waveform_generator.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/¹ùºÆÔÂ/Desktop/waveform_generator/waveform_generator.srcs/sources_1/new/dac_controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dac_controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/¹ùºÆÔÂ/Desktop/waveform_generator/waveform_generator.srcs/sources_1/new/sin_wave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sin_wave
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/¹ùºÆÔÂ/Desktop/waveform_generator/waveform_generator.srcs/sources_1/new/wave_generator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wave_generator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/¹ùºÆÔÂ/Desktop/waveform_generator/waveform_generator.srcs/sources_1/new/wave_make.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wave_make
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/¹ùºÆÔÂ/Desktop/waveform_generator/waveform_generator.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/¹ùºÆÔÂ/Desktop/waveform_generator/waveform_generator.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+"xvhdl --incr --relax -prj testbench_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/¹ùºÆÔÂ/Desktop/waveform_generator/waveform_generator.srcs/sources_1/ip/dds_compiler_0/sim/dds_compiler_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'dds_compiler_0'
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 802.098 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '6' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/¹ùºÆÔÂ/Desktop/waveform_generator/waveform_generator.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto c0f0a4d50a1d48ae8b9d2ad5f6d96ada --incr --debug typical --relax --mt 2 -L xbip_utils_v3_0_9 -L axi_utils_v2_0_5 -L xbip_pipe_v3_0_5 -L xbip_bram18k_v3_0_5 -L mult_gen_v12_0_14 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_dsp48_addsub_v3_0_5 -L xbip_dsp48_multadd_v3_0_5 -L dds_compiler_v6_0_17 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3715] size mismatch in mixed language port association, vhdl port 'm_axis_phase_tdata' [C:/Users/¹ùºÆÔÂ/Desktop/waveform_generator/waveform_generator.srcs/sources_1/new/sin_wave.v:35]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'config_valid' [C:/Users/¹ùºÆÔÂ/Desktop/waveform_generator/waveform_generator.srcs/sources_1/new/wave_make.v:36]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 16 for port 'config_data' [C:/Users/¹ùºÆÔÂ/Desktop/waveform_generator/waveform_generator.srcs/sources_1/new/wave_make.v:37]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xbip_utils_v3_0_9.xbip_utils_v3_0_9_pkg
+Compiling package xbip_utils_v3_0_9.xcc_utils_v3_0
+Compiling package dds_compiler_v6_0_17.dds_compiler_v6_0_17_viv_comp
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package dds_compiler_v6_0_17.pkg_dds_compiler_v6_0_17
+Compiling package dds_compiler_v6_0_17.dds_compiler_v6_0_17_hdl_comps
+Compiling package xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv_comp
+Compiling package axi_utils_v2_0_5.axi_utils_v2_0_5_pkg
+Compiling package ieee.math_real
+Compiling package axi_utils_v2_0_5.global_util_pkg
+Compiling package axi_utils_v2_0_5.axi_utils_comps
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_unsigned
+Compiling package dds_compiler_v6_0_17.pkg_betas
+Compiling package dds_compiler_v6_0_17.pkg_alphas
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.PLLE2_ADV(CLKFBOUT_MULT=9,CLKIN1...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture synth of entity dds_compiler_v6_0_17.dds_compiler_v6_0_17_rdy [\dds_compiler_v6_0_17_rdy(c_has_...]
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_has_ce=1...]
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_has_ce=1...]
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_has_ce=1...]
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture synth of entity dds_compiler_v6_0_17.pipe_add [\pipe_add(c_width=16,c_seg_width...]
+Compiling architecture synth of entity dds_compiler_v6_0_17.accum [\accum(c_xdevicefamily="spartan7...]
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_has_ce=1...]
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_has_ce=1...]
+Compiling architecture synth of entity dds_compiler_v6_0_17.sin_cos [\sin_cos(c_xdevicefamily="sparta...]
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_has_ce=1...]
+Compiling architecture synth of entity dds_compiler_v6_0_17.dds_compiler_v6_0_17_core [\dds_compiler_v6_0_17_core(c_xde...]
+Compiling architecture synth of entity dds_compiler_v6_0_17.dds_compiler_v6_0_17_viv [\dds_compiler_v6_0_17_viv(c_xdev...]
+Compiling architecture xilinx of entity dds_compiler_v6_0_17.dds_compiler_v6_0_17 [\dds_compiler_v6_0_17(c_xdevicef...]
+Compiling architecture dds_compiler_0_arch of entity xil_defaultlib.dds_compiler_0 [dds_compiler_0_default]
+Compiling module xil_defaultlib.sin_wave
+Compiling module xil_defaultlib.wave_make
+Compiling module xil_defaultlib.dac_controller
+Compiling module xil_defaultlib.wave_generator
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 802.098 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/¹ùºÆÔÂ/Desktop/waveform_generator/waveform_generator.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Warning : input CLKIN1 period and attribute CLKIN1_PERIOD on PLLE2_ADV instance testbench.test.u1_clk_wiz_0.inst.plle2_adv_inst are not same.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:19 . Memory (MB): peak = 802.098 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 850.391 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jul 31 18:30:07 2020...
